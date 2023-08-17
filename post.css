@@ -1,0 +1,80 @@
+#one{
+    border: 5px inset black;
+    width: 700px;
+    height: 500px;
+    position: relative;
+    background-color: lightcyan;
+    top: -65px;
+    border-bottom-right-radius: 200px;
+    border-top-left-radius: 200px;
+
+    left: 300px;
+
+}
+#two{
+    border: 0px solid black;
+    width: 200;
+    height: 165;
+    position: absolute;
+    z-index: 3;
+    top: 115px;
+    left: 85px;
+    z-index: 1;
+}
+#three{
+    border: 0px solid black;
+    width: 200;
+    height: 165;
+    position: absolute;
+    top: 250px;
+    left: 350px;
+    z-index: 4;
+}
+#four{
+    border: 0px solid black;
+    width: 200;
+    height: 165;
+    position: absolute;
+    top: 100px;
+    left: 255px;
+    z-index: 2;
+}
+#five{
+    border: 0px solid black;
+    width: 200;
+    height: 165;
+    position: absolute;
+    top: 270px;
+    left: 100px;
+}
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:80px;
+    color: black;
+    position: absolute;
+    top: -80px;
+    left: 100px;
+    z-index: 4;
+    text-shadow: 5px 5px wheat;
+}
+p::first-letter{
+    font-size: 120px;
+    text-shadow: 5px 5px wheat;
+}
+
+#six{
+    background-color: maroon;
+    height: 250px;
+    position: static;
+    font-size: 200px;
+    color: whitesmoke;
+}
+#seven{
+    width: auto;
+    height: auto;
+    position: absolute;
+    left: 20px;
+    top: 120px;
+    z-index:-1;
+
+}
